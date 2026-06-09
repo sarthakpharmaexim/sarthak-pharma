@@ -28,7 +28,7 @@ const groups = [
       "Abbott",
       "Intas",
       "Laborate",
-      "Dr. Morphen",
+      "Dr. Morepen",
       "Biochem",
       "Elder Neutraceutical",
       "Roussell",
@@ -39,7 +39,7 @@ const groups = [
     ],
   },
   { title: "Generics", brands: ["UTL", "ULS", "Lordcent & Torrcent", "Hab"] },
-  { title: "Our Own", brands: ["Indkus"] },
+  { title: "Our Own", brands: ["Indkus", "Zota Lifestyle Products"] },
   { title: "Injectables", brands: ["American Remedies", "Lordcent & Torrcent"] },
 ];
 

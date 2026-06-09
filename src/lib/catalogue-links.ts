@@ -22,7 +22,7 @@ export const catalogueLinks: Record<string, string> = {
  
   // Our Own
   "Indkus":               "https://drive.google.com/file/d/1O5IzYEtsf-veNQpHdKu8zRrp_yt3gdvX/view?usp=drive_link",
- 
+ "Zota Lifestyle Products": "https://drive.google.com/file/d/1G-3YFc-EEAWnER9P-UtcPc0_VJ9KIAMr/view?usp=drive_link",
   // Loose Items / Generics
   "Hab":                  "https://drive.google.com/file/d/13eS5Ht0XbidXl53s8AJ11DQHaOhZiMS2/view?usp=drive_link",
  

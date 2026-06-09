@@ -40,7 +40,7 @@ const categories = [
       "Abbott",
       "Intas",
       "Laborate",
-      "Dr. Morphen",
+      "Dr. Morepen",
       "Biochem",
       "Elder Neutraceutical",
       "Roussell",
@@ -51,7 +51,7 @@ const categories = [
     ],
   },
   { icon: Box, title: "Generics", items: ["UTL", "ULS", "Lordcent & Torrcent", "Hab"] },
-  { icon: HeartPulse, title: "Our Own", items: ["Indkus"] },
+  { icon: HeartPulse, title: "Our Own", items: ["Indkus", "Zota Lifestyle Products"] },
   {
     icon: Syringe,
     title: "Injectables",
