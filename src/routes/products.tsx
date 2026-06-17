@@ -10,23 +10,9 @@ import {
   FileText,
 } from "lucide-react";
 import { catalogueLinks } from "@/lib/catalogue-links";
-
+import { getPageMeta } from "@/lib/seo";
 export const Route = createFileRoute("/products")({
-  head: () => ({
-    meta: [
-      { title: "Products & Categories â€” Sarthak Pharma" },
-      {
-        name: "description",
-        content:
-          "Explore our pharmaceutical portfolio: branded generics, generics, injectables for hospitals, surgical & instruments, belts & braces, dressings and more.",
-      },
-      { property: "og:title", content: "Products & Categories â€” Sarthak Pharma" },
-      {
-        property: "og:description",
-        content: "Branded generics, injectables, surgicals, dressings and specialty healthcare.",
-      },
-    ],
-  }),
+  head: () => ({ meta: getPageMeta("products") }),
   component: ProductsPage,
 });
 

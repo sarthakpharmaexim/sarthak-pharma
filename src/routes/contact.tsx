@@ -2,16 +2,9 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { Phone, MessageCircle, MapPin, Mail, Send } from "lucide-react";
 import { supabase } from "@/lib/supabase";
-
+import { getPageMeta } from "@/lib/seo";
 export const Route = createFileRoute("/contact")({
-  head: () => ({
-    meta: [
-      { title: "Contact — Sarthak Pharma, Mumbai" },
-      { name: "description", content: "Call, WhatsApp or visit Sarthak Pharma in Mumbai. Shop 16, 2/22 Earth House, Babu Genu Road, Princess Street, Mumbai 400002." },
-      { property: "og:title", content: "Contact Sarthak Pharma" },
-      { property: "og:description", content: "Reach our team for quotes, availability and partnerships." },
-    ],
-  }),
+  head: () => ({ meta: getPageMeta("contact") }),
   component: ContactPage,
 });
 

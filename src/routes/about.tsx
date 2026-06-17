@@ -1,16 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Target, Eye, Sparkles, History } from "lucide-react";
 import teamImg from "@/assets/team-sarthak.jpg";
-
+import { getPageMeta } from "@/lib/seo";
 export const Route = createFileRoute("/about")({
-  head: () => ({
-    meta: [
-      { title: "About — Sarthak Pharma" },
-      { name: "description", content: "Carrying forward Suswa Pharma's 40-year legacy. Learn about Sarthak Pharma's purpose, mission, vision and trusted distribution network." },
-      { property: "og:title", content: "About Sarthak Pharma" },
-      { property: "og:description", content: "40-year legacy of trust in pharmaceutical distribution across Maharashtra." },
-    ],
-  }),
+  head: () => ({ meta: getPageMeta("about") }),
   component: AboutPage,
 });
 

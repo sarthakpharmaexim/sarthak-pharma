@@ -1,14 +1,9 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ShieldCheck, Truck, Boxes, Users, Clock, HeartPulse, Syringe, Pill, FlaskConical, Stethoscope, ArrowRight, CheckCircle2, Phone } from "lucide-react";
 import heroImg from "@/assets/hero-pharma.jpg";
-
+import { getPageMeta } from "@/lib/seo";
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Sarthak Pharma — Trusted Pharmaceutical Distribution, Mumbai" },
-      { name: "description", content: "Wholesale pharmaceutical distribution across Maharashtra. Genuine generics, injectables, surgicals & specialty care. Built on 40+ years of legacy." },
-    ],
-  }),
+  head: () => ({ meta: getPageMeta("home") }),
   component: HomePage,
 });
 

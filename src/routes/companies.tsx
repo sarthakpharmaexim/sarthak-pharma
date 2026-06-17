@@ -1,22 +1,9 @@
 ﻿import { createFileRoute } from "@tanstack/react-router";
 import { FileText } from "lucide-react";
 import { catalogueLinks } from "@/lib/catalogue-links";
+import { getPageMeta } from "@/lib/seo";
 export const Route = createFileRoute("/companies")({
-  head: () => ({
-    meta: [
-      { title: "Partner Companies - Sarthak Pharma" },
-      {
-        name: "description",
-        content:
-          "We partner with India's leading pharmaceutical manufacturers - Cipla, Alkem, Abbott, Intas, Macleods, Emcure and many more.",
-      },
-      { property: "og:title", content: "Partner Companies - Sarthak Pharma" },
-      {
-        property: "og:description",
-        content: "Trusted distribution partner for India's leading pharmaceutical brands.",
-      },
-    ],
-  }),
+  head: () => ({ meta: getPageMeta("companies") }),
   component: CompaniesPage,
 });
 const groups = [
