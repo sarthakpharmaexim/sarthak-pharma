@@ -16,7 +16,6 @@ export const catalogueLinks: Record<string, string> = {
   "Helios":               "https://drive.google.com/file/d/1DO9LkR8W4WE1IK_Ddp4dEFHw6OfU0sf5/view?usp=drive_link",
  "Cadilla List ":         "https://drive.google.com/file/d/1nSvK7P7JXPZXVvPQkrD1eSd547HuAiI9/view?usp=drive_link",
  "Wockhardt List":        "https://drive.google.com/file/d/1-ZV2K58LBPUwewf4cu6PXUJN-Rp_ZKy0/view?usp=drive_link",
- 
   // Generics
   "UTL":                  "https://drive.google.com/file/d/1R1tcm5pvG23_UkOzznqcYn-7pCxZJWLi/view?usp=drive_link",
   "ULS":                  "https://drive.google.com/file/d/1MlBO5AKqAHxeeaXXzBHlK44bMnIaCOAe/view?usp=drive_link",

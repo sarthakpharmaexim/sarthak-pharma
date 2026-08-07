@@ -36,7 +36,6 @@ const categories = [
       "Helios",
       "Cadilla List ",
       "Wockhardt List ",
-      "Wellness List",
     ],
   },
   { icon: Box, title: "Generics", items: ["UTL", "ULS", "Lordcent & Torrcent", "Hab"] },

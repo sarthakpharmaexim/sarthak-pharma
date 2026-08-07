@@ -25,7 +25,6 @@ const groups = [
       "Helios",
       "Cadilla List ",
       "Wockhardt List ",
-      "Wellness List",
     ],
   },
   { title: "Generics", brands: ["UTL", "ULS", "Lordcent & Torrcent", "Hab"] },
